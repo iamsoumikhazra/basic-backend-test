@@ -2,8 +2,9 @@
 require('dotenv').config()
 const express = require('express')
 
+
 const app = express()
-const port = procesclears.env.PORT
+const port = process.env.PORT || 5000
 const insta = "iamsoumikhazra";
 
 
@@ -14,6 +15,9 @@ app.get('/',(req,res)=>{
 
 app.get('/insta',(req,res)=>{
   res.send(`<a href="https://www.instagram.com/${insta}/" target="_blank">${insta}</a> IS HERE `)
+})
+app.get('/google',(req,res)=>{
+  res.send(`GO TO<a href="https://www.google.com/" target="_blank">Google</a>`)
 })
 
 app.listen(port,()=>{
