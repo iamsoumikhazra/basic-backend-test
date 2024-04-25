@@ -15,6 +15,7 @@
   "author": "soumik",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "terminal-link": "^3.0.0"
