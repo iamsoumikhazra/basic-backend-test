@@ -10,7 +10,8 @@ const insta = "iamsoumikhazra";
 
 
 app.get('/',(req,res)=>{
-  res.send(`sending hello from world\'s backend !\nNow I want to see real time changes in my app after pushing code into github.`)
+  res.send(`sending hello from world\'s backend <br/>
+  Now I want to see real time changes in my app after pushing code into github.`)
 })
 
 app.get('/insta',(req,res)=>{
